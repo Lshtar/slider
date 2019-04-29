@@ -15,6 +15,7 @@
 		CC43354C210FF183006E13CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC43354B210FF183006E13CE /* main.m */; };
 		CC433556210FF183006E13CE /* sliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC433555210FF183006E13CE /* sliderTests.m */; };
 		CC433561210FF183006E13CE /* sliderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC433560210FF183006E13CE /* sliderUITests.m */; };
+		CC433570210FF265006E13CE /* YJHSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CC43356F210FF265006E13CE /* YJHSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CC43355C210FF183006E13CE /* sliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC433560210FF183006E13CE /* sliderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sliderUITests.m; sourceTree = "<group>"; };
 		CC433562210FF183006E13CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC43356E210FF265006E13CE /* YJHSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJHSlider.h; sourceTree = "<group>"; };
+		CC43356F210FF265006E13CE /* YJHSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJHSlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CC43353D210FF183006E13CE /* AppDelegate.m */,
 				CC43353F210FF183006E13CE /* ViewController.h */,
 				CC433540210FF183006E13CE /* ViewController.m */,
+				CC43356E210FF265006E13CE /* YJHSlider.h */,
+				CC43356F210FF265006E13CE /* YJHSlider.m */,
 				CC433542210FF183006E13CE /* Main.storyboard */,
 				CC433545210FF183006E13CE /* Assets.xcassets */,
 				CC433547210FF183006E13CE /* LaunchScreen.storyboard */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC433570210FF265006E13CE /* YJHSlider.m in Sources */,
 				CC433541210FF183006E13CE /* ViewController.m in Sources */,
 				CC43354C210FF183006E13CE /* main.m in Sources */,
 				CC43353E210FF183006E13CE /* AppDelegate.m in Sources */,
